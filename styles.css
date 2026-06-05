@@ -1,0 +1,42 @@
+* {margin: 0; padding: 0}
+
+body {color:red; width: 100vw; padding: 0; margin: 0; font-family: Tahoma}
+
+#playing-cards {display: flex;
+justify-content: center; 
+flex-wrap: wrap; 
+gap: 20px; 
+margin: 20px auto;
+}
+
+.card {display: flex; 
+justify-content: space-between;
+width: 2.5in;
+height: 3.5in; 
+border: 2px solid blue; 
+padding: 0.11811in ;
+border-radius: 0.125in;
+font-size: 60px;
+text-align: center;
+line-height: 0.85;
+
+}
+
+.card:nth-child(even) {color: black}
+
+.left {display: flex;
+align-self: flex-start;
+}
+
+.middle {display: flex;
+flex-direction: column;
+align-self: center;
+font-size:115px; 
+margin-bottom: 30px;
+}
+
+.right {display: flex;
+align-self: flex-end;
+transform: rotate(180deg);
+text-align: center;
+}  
